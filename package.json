@@ -1,0 +1,10 @@
+{
+	"name": "qr-code",
+	"scripts": {
+		"start": "node server"
+	},
+	"dependencies": {
+		"express": "*",
+		"colors": "*"
+	}
+}

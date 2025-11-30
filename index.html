@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QR Code</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="container">
+  <main>
+    <div class="qr-code__container">
+      <div class="qr-code__background">
+        <img src="./assets/img/qr-code.png" alt="qr-code" class="qr-code__img">
+      </div>
+     <div class="qr-code__content">
+       <h2 class="qr-code__heading">Improve your front-end skills by building projects</h2>
+       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+     </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.1/qrcode.js" integrity="sha512-hAz8pxm1kva4chZWPXQhGehvvlIj1Loka653sQXoYHNj4sgSukoR3ZKyHEOT7kFGVW17wUqD9CbKeviIJ2XFKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module">
+      const image = document.querySelector('.qr-code__img');
+
+      QRCode.toDataURL('https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H').then(url => {
+        image.src = url;
+      });
+    </script>
+  </main>
+</body>
+</html>
