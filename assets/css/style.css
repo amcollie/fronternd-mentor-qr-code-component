@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--gray-medium);
+    min-height: 100vh;
 }
 
 .qr-code__container {
@@ -16,10 +17,9 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    max-width: 20rem;
-    min-height: 30.625rem;
-    /*margin-block-start: auto;*/
-    margin-top: 1rem;
+    max-width: clamp(15rem, 40vw, 20rem);
+    min-height: clamp(20rem, 50vh, 30.625rem);
+    margin-block-start: 1rem;
     padding: clamp(0.75rem, 2vw, 1.125rem);
     background-color: white;
     border-radius: 0.5rem;
