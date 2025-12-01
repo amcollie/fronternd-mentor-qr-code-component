@@ -7,16 +7,22 @@
 </head>
 <body class="container">
   <main>
-    <div class="qr-code__container">
+    <figure class="qr-code__container">
       <div class="qr-code__background">
         <img src="" alt="qr-code" class="qr-code__img">
       </div>
-     <div class="qr-code__content">
+     <figcaption class="qr-code__content">
        <div class="qr-code__heading">Improve your front-end skills by building projects</div>
        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-     </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.1/qrcode.js" integrity="sha512-hAz8pxm1kva4chZWPXQhGehvvlIj1Loka653sQXoYHNj4sgSukoR3ZKyHEOT7kFGVW17wUqD9CbKeviIJ2XFKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     </figcaption>
+    </figure>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.1/qrcode.js"
+        integrity="sha512-hAz8pxm1kva4chZWPXQhGehvvlIj1Loka653sQXoYHNj4sgSukoR3ZKyHEOT7kFGVW17wUqD9CbKeviIJ2XFKQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+    </script>
     <script type="module">
       const image = document.querySelector('.qr-code__img');
 

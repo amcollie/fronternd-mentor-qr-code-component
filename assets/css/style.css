@@ -10,17 +10,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 320px;
-    height: 499px;
+    width: 20rem;
+    height: 30.625rem;
+    max-width: 490px;
     margin-top: auto;
-    padding: 18px;
+    padding: 1.125rem;
     background-color: white;
     border-radius: 0.5rem;
 }
 
 .qr-code__background {
-    width: 288px;
-    height: 288px;
+    width: 18rem;
+    height: 18rem;
     background-color: blue;
     display: flex;
     justify-content: center;
