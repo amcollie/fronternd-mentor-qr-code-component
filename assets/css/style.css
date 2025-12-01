@@ -13,7 +13,7 @@
     width: 90%;
     height: 30.625rem;
     max-width: 20rem;
-    margin-top: auto;
+    margin-block-start: auto;
     padding: 1.125rem;
     background-color: white;
     border-radius: 0.5rem;
@@ -46,6 +46,8 @@
 }
 
 .qr-code__img {
-    width: 160px;
-    height: 160px;
+    width: 100%;
+    max-width: 10rem;
+    height: 100%;
+    max-height: 10rem;
 }
