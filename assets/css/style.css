@@ -29,7 +29,9 @@
 }
 
 .qr-code__heading {
+    margin-top: 1.5rem;
     font-size: 1.25rem;
+    font-weight: bold;
     text-align: center;
 }
 
