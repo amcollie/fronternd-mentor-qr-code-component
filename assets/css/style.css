@@ -18,15 +18,16 @@
     width: 90%;
     max-width: 20rem;
     min-height: 30.625rem;
-    margin-block-start: auto;
+    /*margin-block-start: auto;*/
+    margin-top: 1rem;
     padding: clamp(0.75rem, 2vw, 1.125rem);
     background-color: white;
     border-radius: 0.5rem;
 }
 
 .qr-code__background {
-    width: 18rem;
-    height: 18rem;
+    width: 90%;
+    aspect-ratio: 1 / 1;
     background-color: blue;
     display: flex;
     justify-content: center;
