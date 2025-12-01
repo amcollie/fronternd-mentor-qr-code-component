@@ -19,7 +19,7 @@
     width: 90%;
     max-width: clamp(15rem, 40vw, 20rem);
     min-height: clamp(20rem, 50vh, 30.625rem);
-    margin-block-start: 1rem;
+    margin-block-start: clamp(0.5rem, 2vw, 2rem);
     padding: clamp(0.75rem, 2vw, 1.125rem);
     background-color: white;
     border-radius: 0.5rem;
